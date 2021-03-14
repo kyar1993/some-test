@@ -1,0 +1,15 @@
+{
+  "name": "testpsr4",
+  "autoload": {
+    "psr-4": {
+      "Classes\\": "lib"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "description": "my test",
+  "require": {
+    "ext-pdo": "*"
+  }
+}
